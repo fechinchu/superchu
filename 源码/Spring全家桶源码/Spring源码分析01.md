@@ -469,7 +469,7 @@ car DisposableBean.destroy()
 car ... detory...
 ```
 
-![image-20211211225904706](https://fechin-picgo.oss-cn-shanghai.aliyuncs.com/PicGo/image-20211211225904706.png)
+<img src="https://fechin-picgo.oss-cn-shanghai.aliyuncs.com/PicGo/image-20211211225904706.png" alt="image-20211211225904706" style="zoom:50%;" />
 
 注意BeanProcessor是一个非常关键的接口,框架源码中很多地方都实现了该接口,
 
@@ -582,7 +582,7 @@ ResourceLoader是用来获取Resource的,
 
 查看BeanFactory的继承的所有接口以及`AnnotationConfigApplicationContext`可以看到如下图:
 
-![image-20211214214328777](https://fechin-picgo.oss-cn-shanghai.aliyuncs.com/PicGo/image-20211214214328777.png)
+<img src="https://fechin-picgo.oss-cn-shanghai.aliyuncs.com/PicGo/image-20211214214328777.png" alt="image-20211214214328777" style="zoom:50%;" />
 
 * `BeanFactory`
   * `AutowireCapableBeanFactory`:提供自动装配能力;
@@ -592,7 +592,7 @@ ResourceLoader是用来获取Resource的,
 
 观察BeanFactory下的抽象类`AbstractApplicationContext`,有属性`ResourcePatternResolver`,那么`AbstractApplicationContext`实际上也组合`ResourceLoader`资源加载类;
 
-![image-20211214215955871](https://fechin-picgo.oss-cn-shanghai.aliyuncs.com/PicGo/image-20211214215955871.png)
+<img src="https://fechin-picgo.oss-cn-shanghai.aliyuncs.com/PicGo/image-20211214215955871.png" alt="image-20211214215955871" style="zoom:50%;" />
 
 `GenericApplicationContext` 是`AnnotationApplicationContext`的父类,也是`AbstractApplicationContext`的子类,它组合了一个`DefaultListableBeanFactory`
 
