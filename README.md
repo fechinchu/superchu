@@ -1,27 +1,21 @@
 <p align="center">
     <a href="/" >
-        <img src="https://fechin-picgo.oss-cn-shanghai.aliyuncs.com/PicGo/Xnip2022-01-23_15-34-59.png" alt="Xnip2022-01-23_15-34-59" style="zoom:40%;" />
+        <img src="https://fechin-picgo.oss-cn-shanghai.aliyuncs.com/PicGo/%E6%9C%AA%E6%A0%87%E9%A2%98-2.png" alt="Xnip2022-01-23_15-34-59" style="zoom:40%;" />
     </a>
 </p>
-<p align="center">
-    <a href="/" >
-        <img src="https://fechin-picgo.oss-cn-shanghai.aliyuncs.com/PicGo/Xnip2022-01-23_15-25-3801.png" alt="image-20220123113225521" style="zoom:50%;" />
-    </a>
-</p>
-
-
 <p align="center">
   <a href="http://www.zhuguoqing.cn" target="_blank"><img src="https://img.shields.io/badge/%E5%B0%8F%E6%9C%B1%E5%93%A5%E7%9A%84%E5%8D%9A%E5%AE%A2-zhuguoqing.cn-FFFFFF"></a>
   <a href="https://github.com/fechinchu" target="_blank"><img src="https://img.shields.io/badge/fechinchu-github-000000"></a>
   <a href="https://space.bilibili.com/38255113" target="_blank"><img src="https://img.shields.io/badge/%E6%88%91%E7%9A%84%E4%B8%BB%E9%A1%B5-bilibili-FB7299"></a>
   <a href="https://fechinchu.github.io/free-log/" target="_blank"><img src="https://img.shields.io/badge/free--log-%E6%88%91%E7%9A%84%E5%BC%80%E6%BA%90%E9%A1%B9%E7%9B%AE-158170"></a>
-  <a href="http://www.zhuguoqing.cn/?p=2569" target="_blank">
+  <a href="/#/_aboutme/AboutMe" target="_blank">
     <img src="https://img.shields.io/badge/%E8%81%94%E7%B3%BB%E6%88%91-%E5%B0%8F%E6%9C%B1%E5%93%A5-orange">
   </a>
 </p>
 
+
 > [!TIP]
->  **SuperChu的宗旨是将后端开发的整个知识体系梳理出来,方便查阅,方便自己,也希望能够方便大家** 
+>  **SuperChu小朱哥的编程网站 宗旨是将后端开发的整个知识体系梳理出来,快速查阅.**
 >  
 >  给编程爱好者提供一系列：
 >
@@ -30,7 +24,7 @@
 >  - **高效的工具**
 >  - **务实的技术文章**
 >
-> 方便自己也方便他人。网站内容会保持**持续更新**，欢迎收藏品鉴！
+> 方便自己也方便他人.网站内容会保持**持续更新**.欢迎收藏品鉴！
 
 ---
 
@@ -123,8 +117,6 @@
 
 ## Spring全家桶源码分析
 
-<img src="https://fechin-picgo.oss-cn-shanghai.aliyuncs.com/PicGo/Xnip2022-01-24_23-02-17.jpg" alt="Xnip2022-01-24_23-02-17" style="zoom: 45%;" />
-
 * **Spring Framework源码**
   
   * [**Spring源码分析01**](源码解析/Spring全家桶源码/Spring源码分析01) **[Spring注解驱动与Spring的整体概览]**
@@ -140,11 +132,10 @@
 
 ## MyBatis源码分析
 
-![image-20220125113925689](https://fechin-picgo.oss-cn-shanghai.aliyuncs.com/PicGo/image-20220125113925689.png)
-
 * **MyBatis源码**
 
   * [**MyBatis源码分析**](源码解析/MyBatis源码/MyBatis源码)
+
 ---
 
 # MySQL原理
@@ -200,18 +191,33 @@
 
 # Java业务开发常见问题汇总
 
-> [!WARNING]
-> * [**如何解决重复代码**](Java业务开发常见问题/解决重复代码)
-> * [**异常如何处理**](Java业务开发常见问题/异常处理)
-> * [**Spring声明式事务的坑**](Java业务开发常见问题/Spring的声明式事务)
+* [**如何解决重复代码**](Java业务开发常见问题/解决重复代码)
+* [**异常如何处理**](Java业务开发常见问题/异常处理)
+* [**Spring声明式事务的坑**](Java业务开发常见问题/Spring的声明式事务)
 
 ---
 
 # 小朱哥的开源项目
 
+* **free-log**:一款高拓展的Java操作日志框架.
+<p align="left">
+    <a href="https://fechinchu.github.io/free-log/" >
+        <img src="https://fechin-picgo.oss-cn-shanghai.aliyuncs.com/PicGo/image-20220125135623226.png" alt="Xnip2022-01-23_15-34-59" style="zoom:70%;" />
+    </a>
+</p>
 
+---
 
+# 写在最后
 
-
-
+> [!NOTE]
+>
+> 网页快到末尾啦,由于小朱哥上班时间较忙,网站的内容展示并没有很丰富.
+>
+>  - 其实很多内容都已经有了雏形,只不过需要时间完善,比如(计算机网络,云原生,DDD等等).后期小朱哥会抓紧时间补上并**持续更新**.
+>  - **这里小朱哥想说,当你知道的越多,你就会发现你不知道的越多.**
+>  - **该域名和服务器小朱哥租用了相当长的时间(很长很长~),这个大家不需要担心,希望能够能伴随着我和大家一起走下去.**
+>
+> **联系小朱哥**:  [**点这里**](_aboutme/AboutMe)
+>
 
