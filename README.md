@@ -1,13 +1,14 @@
 <p align="center">
-    <a href="http:www.superchu.com/" target="_blank">
+    <a href="/" >
         <img src="https://fechin-picgo.oss-cn-shanghai.aliyuncs.com/PicGo/Xnip2022-01-23_15-34-59.png" alt="Xnip2022-01-23_15-34-59" style="zoom:40%;" />
     </a>
 </p>
 <p align="center">
-    <a href="http:www.superchu.com/" target="_blank">
+    <a href="/" >
         <img src="https://fechin-picgo.oss-cn-shanghai.aliyuncs.com/PicGo/Xnip2022-01-23_15-25-3801.png" alt="image-20220123113225521" style="zoom:50%;" />
     </a>
 </p>
+
 
 <p align="center">
   <a href="http://www.zhuguoqing.cn" target="_blank"><img src="https://img.shields.io/badge/%E5%B0%8F%E6%9C%B1%E5%93%A5%E7%9A%84%E5%8D%9A%E5%AE%A2-zhuguoqing.cn-FFFFFF"></a>
@@ -20,11 +21,11 @@
 </p>
 
 > [!TIP]
->  本站取名 **r2coding**，即 **Road To Coding**，意为「编程自学之路」，是自学编程以来所用资源和分享内容的大聚合。
+>  **SuperChu的宗旨是将后端开发的整个知识体系梳理出来,方便查阅,方便自己,也希望能够方便大家** 
 >  
->  旨在为编程自学者提供一系列：
->  - **清晰的编程自学路线**
->  - **各编程岗位方向的知识点梳理**
+>  给编程爱好者提供一系列：
+>
+>  - **清晰的知识体系**
 >  - **靠谱的资源**
 >  - **高效的工具**
 >  - **务实的技术文章**
@@ -60,38 +61,53 @@
 * [**LeetCode01-链表**](数据结构与算法/LeetCode01-链表)
 * [**LeetCode02-栈**](数据结构与算法/LeetCode02-栈)
 * 持续更新...
+
 <!-- panels:end -->
 
-# 设计模式
+---
+
+# 设计原则与设计模式
+
+<!-- tabs:start -->
+
+## **设计模式文章详解**
 
 * [**01.重新认识面向对象**](设计模式/01-重新认识面向对象)
 * [**02-面向对象-MVC与DDD**](设计模式/02-面向对象-MVC与DDD)
 * [**03-设计原则与思想**](设计模式/03-设计原则与思想)
 * [**04-规范与重构**](设计模式/04-规范与重构)
 * [**05-开源实战**](设计模式/05-开源实战)
-* [**06-设计模式-创建型**](设计模式/06-设计模式-创建型)
-* [**07-设计模式-结构型**](设计模式/07-设计模式-结构型)
-* [**08-设计模式-行为型(上)**](设计模式/08-设计模式-行为型(上))
-* [**09-设计模式-行为型(下)**](设计模式/09-设计模式-行为型(下))
+* [**06-设计模式-创建型**](设计模式/06-设计模式-创建型) **[单例模式,工厂模式,建造者模式,原型模式]**
+* [**07-设计模式-结构型**](设计模式/07-设计模式-结构型) **[代理模式,桥接模式,装饰器模式,适配器模式,门面模式,组合模式,享元模式]**
+* [**08-设计模式-行为型(上)**](设计模式/08-设计模式-行为型(上)) **[观察者模式,模板模式,策略模式,职责链模式,状态模式]**
+* [**09-设计模式-行为型(下)**](设计模式/09-设计模式-行为型(下)) **[迭代器模式,访问者模式,备忘录模式,命令模式,解释器模式]**
 * [**10-设计模式实战-实现接口幂等框架**](设计模式/10-设计模式实战-实现接口幂等框架)
 * [**11-设计模式实战-实现限流框架**](设计模式/11-设计模式实战-实现限流框架)
 * 持续更新...
 
-# JVM
+## **设计模式体系图**
 
-* [**JVM01-JVM的架构与类加载子系统**](JVM/JVM详解01-JVM的架构与类加载子系统)
-* [**JVM02-JVM的运行时数据区**](JVM/JVM详解02-JVM的运行时数据区)
-* [**JVM03-JVM的对象,执行引擎,StringTable**](JVM/JVM详解03-JVM的对象,执行引擎,StringTable)
-* [**JVM04-JVM的垃圾回收算法与概念**](JVM/JVM详解04-JVM的垃圾回收算法与概念)
-* [**JVM05-JVM的垃圾回收器**](JVM/JVM详解05-JVM的垃圾回收器)
-* [**JVM06-Class文件结构**](JVM/JVM详解06-Class文件结构)
-* [**JVM07-字节码指令集**](JVM/JVM详解07-字节码指令集)
-* [**JVM08-类的加载过程**](JVM/JVM详解08-类的加载过程)
-* [**JVM09-类的加载器**](JVM/JVM详解09-类的加载器)
-* [**JVM10-JVM监控及诊断工具-命令行篇**](JVM/JVM详解10-JVM监控及诊断工具-命令行篇)
-* [**JVM11-JVM监控及诊断工具-GUI篇**](JVM/JVM详解11-JVM监控及诊断工具-GUI篇)
-* [**JVM12-JVM运行时参数**](JVM/JVM详解12-JVM运行时参数)
-* [**JVM13-JVM调优**](JVM/JVM详解13-JVM调优)
+<img src="https://fechin-picgo.oss-cn-shanghai.aliyuncs.com/PicGo/image-20220124230754683.png" alt="image-20220124230754683" style="zoom: 60%;" />
+
+<!-- tabs:end -->
+
+# JVM原理与调优
+
+* [**JVM01-JVM的架构与类加载子系统**](Java虚拟机/JVM详解01-JVM的架构与类加载子系统)
+* [**JVM02-JVM的运行时数据区**](Java虚拟机/JVM详解02-JVM的运行时数据区)
+* [**JVM03-JVM的对象,执行引擎,StringTable**](Java虚拟机/JVM详解03-JVM的对象,执行引擎,StringTable)
+* [**JVM04-JVM的垃圾回收算法与概念**](Java虚拟机/JVM详解04-JVM的垃圾回收算法与概念)
+* [**JVM05-JVM的垃圾回收器**](Java虚拟机/JVM详解05-JVM的垃圾回收器)
+* [**JVM06-Class文件结构**](Java虚拟机/JVM详解06-Class文件结构)
+* [**JVM07-字节码指令集**](Java虚拟机/JVM详解07-字节码指令集)
+* [**JVM08-类的加载过程**](Java虚拟机/JVM详解08-类的加载过程)
+* [**JVM09-类的加载器**](Java虚拟机/JVM详解09-类的加载器)
+* [**JVM10-JVM监控及诊断工具-命令行篇**](Java虚拟机/JVM详解10-JVM监控及诊断工具-命令行篇)
+* [**JVM11-JVM监控及诊断工具-GUI篇**](Java虚拟机/JVM详解11-JVM监控及诊断工具-GUI篇)
+* [**JVM12-JVM运行时参数**](Java虚拟机/JVM详解12-JVM运行时参数)
+* [**JVM13-JVM调优**](Java虚拟机/JVM详解13-JVM调优)
+
+---
 
 # Java并发编程
 
@@ -101,16 +117,101 @@
 * [**并发编程04-Java并发工具**](Java并发编程/并发编程04-Java并发工具)
 * 持续更新
 
-# 源码分析
+---
 
-* Spring Framework源码
-  * [**Spring源码分析01**](源码/Spring全家桶源码/Spring源码分析01)
-  * [**Spring源码分析02**](源码/Spring全家桶源码/Spring源码分析02)
-  * [**Spring源码分析03**](源码/Spring全家桶源码/Spring源码分析03)
-  * [**Spring源码分析04**](源码/Spring全家桶源码/Spring源码分析04)
-* Spring MVC源码
-  * [**SpringMVC源码分析**](源码/Spring全家桶源码/SpringMVC源码分析)
-* Spring Boot源码
-  * [**SpringBoot源码分析**](源码/Spring全家桶源码/SpringBoot源码分析)
+# 源码解析
+
+## Spring全家桶源码分析
+
+<img src="https://fechin-picgo.oss-cn-shanghai.aliyuncs.com/PicGo/Xnip2022-01-24_23-02-17.jpg" alt="Xnip2022-01-24_23-02-17" style="zoom: 45%;" />
+
+* **Spring Framework源码**
+  
+  * [**Spring源码分析01**](源码解析/Spring全家桶源码/Spring源码分析01) **[Spring注解驱动与Spring的整体概览]**
+  * [**Spring源码分析02**](源码解析/Spring全家桶源码/Spring源码分析02) **[BeanFactoryPostProcessor与BeanPostProcessor]**
+  * [**Spring源码分析03**](源码解析/Spring全家桶源码/Spring源码分析03) **[Spring的整体流程与循环依赖处理]**
+  * [**Spring源码分析04**](源码解析/Spring全家桶源码/Spring源码分析04) **[SpringAOP原理]**
+* **Spring MVC源码**
+  
+  * [**SpringMVC源码分析**](源码解析/Spring全家桶源码/SpringMVC源码分析)
+* **Spring Boot源码**
+
+  * [**SpringBoot源码分析**](源码解析/Spring全家桶源码/SpringBoot源码分析)
+
+## MyBatis源码分析
+
+![image-20220125113925689](https://fechin-picgo.oss-cn-shanghai.aliyuncs.com/PicGo/image-20220125113925689.png)
+
+* **MyBatis源码**
+
+  * [**MyBatis源码分析**](源码解析/MyBatis源码/MyBatis源码)
+---
+
+# MySQL原理
+
+* [**MySQL01-基础架构**](MySQL/1.MySQL-基础架构)
+* [**MySQL02-具体问题具体分析**](MySQL/2.MySQL-实战)
+* 整理归纳中...
+
+---
+
+# 分布式与微服务
+
+* Dubbo
+
+  * [**Dubbo架构与原理**](分布式与微服务/Dubbo)
+
+* SpringCloud
+
+  * [**SpringCloud01-Netflix(Eureka,Ribbon)**](分布式与微服务/SpringCloud01-Netflix(Eureka,Ribbon))
+  * [**SpringCloud02-Netflix(Hystrix,Feign,Zuul)**](分布式与微服务/SpringCloud02-Netflix(Hystrix,Feign,Zuul))
+
+
+* 分布式缓存Redis
+
+  * [**分布式缓存Redis01(持久化,线程模型,雪崩,穿透,击穿,双写一致问题解决)**](分布式与微服务/分布式缓存Redis01(持久化,线程模型,雪崩,穿透,击穿,双写一致问题解决))
+  * [**分布式缓存Redis02(主从复制,哨兵模式,Cluster模式)**](分布式与微服务/分布式缓存Redis02(主从复制,哨兵模式,Cluster模式))
+
+* 分布式协调服务Zookeeper
+
+  * [**分布式协调服务Zookeeper01(ZooKeeper核心概念与应用场景)**](分布式与微服务/分布式协调服务Zookeeper01(ZooKeeper核心概念与应用场景))
+  * [**分布式协调服务Zookeeper02(Zookeeper集群与分布式一致性算法)**](分布式与微服务/分布式协调服务Zookeeper02(Zookeeper集群与分布式一致性算法))
+
+* ElasticStack
+
+  * [**ElasticStack-分布式搜索引擎ElasticSearch01-基础操作,分词器**](分布式与微服务/ElasticStack-分布式搜索引擎ElasticSearch01-基础操作,分词器)
+  * [**ElasticStack-分布式搜索引擎ElasticSearch02-倒排索引,Java客户端**](分布式与微服务/ElasticStack-分布式搜索引擎ElasticSearch02-倒排索引,Java客户端)
+  * [**ElasticStack-分布式搜索引擎ElasticSearch03-集群,原理,优化**](分布式与微服务/ElasticStack-分布式搜索引擎ElasticSearch03-集群,原理,优化)
+  * [**ElasticStack-Beats,Kibana,Logstash**](分布式与微服务/ElasticStack-Beats,Kibana,Logstash)
+
+* 消息中间件MQ
+
+  * [**消息中间件01(RabbitMQ)**](分布式与微服务/消息中间件01(RabbitMQ))
+  * [**消息中间件02(使用场景,MQ优缺点比较,高可用架构)**](分布式与微服务/消息中间件02(使用场景,MQ优缺点比较,高可用架构))
+  * [**消息中间件03(幂等性,不丢失,消息顺序,积压,补偿处理和死信队列)**](分布式与微服务/消息中间件03(幂等性,不丢失,消息顺序,积压,补偿处理和死信队列))
+
+* 分布式解决方案
+
+  * [**分布式事务解决方案**](分布式与微服务/分布式事务解决方案)
+  * [**分库分表解决方案**](分布式与微服务/分库分表解决方案)
+  * [**MySQL集群解决方案(主从复制,PXC集群,MyCat,HAProxy)**](分布式与微服务/MySQL集群解决方案(主从复制,PXC集群,MyCat,HAProxy))
+
+---
+
+# Java业务开发常见问题汇总
+
+> [!WARNING]
+> * [**如何解决重复代码**](Java业务开发常见问题/解决重复代码)
+> * [**异常如何处理**](Java业务开发常见问题/异常处理)
+> * [**Spring声明式事务的坑**](Java业务开发常见问题/Spring的声明式事务)
+
+---
+
+# 小朱哥的开源项目
+
+
+
+
+
 
 
